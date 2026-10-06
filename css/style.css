@@ -1,0 +1,164 @@
+/* Seleciona todos os elementos da página */
+* {
+    /* Remove as margens padrão aplicadas pelo navegador */
+    margin: 0;
+
+    /* Remove os espaçamentos internos padrão */
+    padding: 0;
+
+    /* Faz com que padding e borda sejam incluídos
+       no cálculo da largura e altura dos elementos */
+    box-sizing: border-box;
+}
+
+
+/* Estiliza todo o conteúdo visível da página */
+body {
+    /* Define a fonte principal da página.
+       Se Arial não existir, tenta Helvetica e depois uma fonte sem serifa */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Define a cor de fundo da página */
+    background-color: #f3f0e8;
+
+    /* Define a cor padrão dos textos */
+    color: #2d2d2d;
+
+    /* Limita a largura máxima do conteúdo */
+    max-width: 900px;
+
+    /* 0 = sem margem em cima e embaixo
+       auto = centraliza horizontalmente */
+    margin: 0 auto;
+
+    /* Cria espaço interno:
+       40px em cima/baixo e 20px nas laterais */
+    padding: 40px 20px;
+
+    /* Aumenta o espaço entre as linhas dos textos */
+    line-height: 1.6;
+}
+
+
+/* Estiliza o título principal */
+h1 {
+    /* Define uma cor verde para o título */
+    color: #355e3b;
+
+    /* Define o tamanho da fonte.
+       rem usa como referência o tamanho de fonte padrão da página */
+    font-size: 2.5rem;
+
+    /* Cria espaço abaixo do título */
+    margin-bottom: 10px;
+}
+
+
+/* Estiliza os títulos de segundo nível */
+h2 {
+    /* Utiliza um verde um pouco mais claro */
+    color: #4f6f52;
+
+    /* Cria espaço acima do título */
+    margin-top: 30px;
+
+    /* Cria espaço abaixo do título */
+    margin-bottom: 8px;
+}
+
+
+/* Aplica a mesma estilização aos títulos h3, h4, h5 e h6 */
+h3,
+h4,
+h5,
+h6 {
+    /* Define uma cor cinza escura */
+    color: #5c5c5c;
+
+    /* Cria espaço acima dos títulos */
+    margin-top: 24px;
+
+    /* Cria espaço abaixo dos títulos */
+    margin-bottom: 8px;
+}
+
+
+/* Estiliza os parágrafos */
+p {
+    /* Cria espaço abaixo de cada parágrafo */
+    margin-bottom: 16px;
+}
+
+
+/* Estiliza os links da página */
+a {
+    /* Permite aplicar padding e margem ao link
+       sem fazer ele ocupar a linha inteira */
+    display: inline-block;
+
+    /* Define:
+       15px de margem em cima,
+       0 nas laterais,
+       25px embaixo */
+    margin: 15px 0 25px;
+
+    /* Cria espaço dentro do link,
+       dando aparência de botão */
+    padding: 10px 18px;
+
+    /* Define a cor de fundo do link */
+    background-color: #355e3b;
+
+    /* Define a cor do texto */
+    color: white;
+
+    /* Remove o sublinhado padrão dos links */
+    text-decoration: none;
+
+    /* Arredonda as bordas */
+    border-radius: 8px;
+}
+
+
+/* :hover é aplicado quando o mouse passa por cima do link */
+a:hover {
+    /* Escurece o fundo para mostrar uma interação */
+    background-color: #29472e;
+}
+
+
+/* Estiliza as imagens da página */
+img {
+    /* Faz a imagem se comportar como um bloco */
+    display: block;
+
+    /* Faz a imagem ocupar até 100% da largura disponível */
+    width: 100%;
+
+    /* Impede que a imagem fique maior que 650px */
+    max-width: 650px;
+
+    /* Centraliza a imagem horizontalmente */
+    margin: 0 auto;
+
+    /* Arredonda as bordas da imagem */
+    border-radius: 14px;
+}
+
+
+/* Media Query:
+   estas regras são aplicadas apenas quando
+   a tela possui 600px de largura ou menos,
+   como em celulares */
+@media (max-width: 600px) {
+
+    body {
+        /* Diminui o espaçamento da página em telas pequenas */
+        padding: 24px 16px;
+    }
+
+    h1 {
+        /* Diminui o título para caber melhor no celular */
+        font-size: 2rem;
+    }
+}
