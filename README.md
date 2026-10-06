@@ -1,34 +1,50 @@
 # 🍲 Sextamos
 
-Um projeto prático e descontraído de desenvolvimento web criado para estudar, testar e dominar os fundamentos do HTML5 com autonomia.
+Um projeto prático e descontraído de desenvolvimento web criado para estudar, testar e consolidar os fundamentos de HTML5 e CSS3.
 
 ---
 
 ## 🎯 Sobre o Projeto
 
-O **Sextamos** nasceu com a proposta de ser um laboratório de aprendizado contínuo. O objetivo principal aqui não é apenas criar uma página funcional, mas entender exatamente a função de cada caractere, tag, atributo e linha de código.
+O **Sextamos** nasceu com a proposta de ser um laboratório de aprendizado contínuo.
 
-A temática do projeto é simples e aconchegante: a combinação perfeita de um caldo verde quentinho em uma sexta-feira fria, pedindo pelo iFood! 🌧️🥣
+O objetivo principal não é apenas criar uma página funcional, mas entender a função de cada tag, atributo, propriedade e linha de código utilizada no desenvolvimento.
 
-> 🚧 **Status do Projeto:** Em desenvolvimento (Fase inicial: Aprendizado de HTML).
+A temática do projeto é simples e aconchegante: um caldo verde quentinho em uma sexta-feira fria. 🌧️🥣
+
+> ✅ **Status do Projeto:** Concluído — HTML e estilização básica com CSS.
 
 ---
 
 ## 🧠 Objetivos de Aprendizado
 
 - Compreender a estrutura básica e semântica do HTML5.
-- Praticar o uso correto de títulos, parágrafos e elementos de texto.
-- Implementar links externos e mídias de forma otimizada.
-- Aplicar boas práticas de acessibilidade (como atributos `alt` em imagens).
-- Documentar o próprio código com comentários explicativos para fixação do conhecimento.
+- Praticar o uso de títulos, parágrafos e elementos de texto.
+- Implementar links externos e imagens.
+- Aplicar boas práticas de acessibilidade com o atributo `alt`.
+- Utilizar CSS para estilizar cores, espaçamentos, tipografia e imagens.
+- Compreender conceitos como `margin`, `padding`, `max-width` e `border-radius`.
+- Utilizar pseudo-classe `:hover`.
+- Aplicar responsividade básica utilizando `@media`.
+- Praticar versionamento de código com Git e GitHub.
 
 ---
 
-## 📂 Estrutura do Arquivo
+## 📂 Estrutura do Projeto
 
 ```text
-sextamos/
+Transforme-se/
 │
-├── index.html        # Página principal com código documentado e semântico
-└── img/
-    └── caldo_verde.webp # Imagem otimizada utilizada no projeto
+├── index.html
+│
+├── css/
+│   └── style.css
+│
+├── img/
+│   └── caldo_verde.webp
+│
+└── README.md
+
+
+👩‍💻 Autora
+Desenvolvido por Eduarda Coelho como parte dos estudos de desenvolvimento web.
